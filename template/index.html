@@ -15,7 +15,7 @@
      </form>
     {% if prediction %}
       <div class="row">
-        <img src="{{url_for('static', filename='images/' + prediction + '.jpeg')}}"
+        <img src="{{url_for('static', filename='' + prediction + '.jpeg')}}"
             height="100"
         /> 
         <br />
